@@ -472,7 +472,7 @@
     <section class="contact-us">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 image-content">
                     <img src="{{ asset('img/contact-image.png') }}" id="contact_image" alt="contact">
                     <img src="{{ asset('img/contact-image-mobile.png') }}" id="contact_mobile_image" alt="contact">
                 </div>

@@ -93,6 +93,15 @@ window.addEventListener("load", () => {
     dots: true,
     smartSpeed: 1000,
     lazyLoad: true,
+    responsive: {
+        0: {
+          items: 1.4,
+        },
+        768: {
+            items: 2.2,
+          },
+
+      },
   });
 
   $(".testimonials-carousel").owlCarousel({
@@ -111,4 +120,6 @@ window.addEventListener("load", () => {
         '<i class="fa fa-caret-left arrow-nav"></i>',
         '<i class="fa fa-caret-right arrow-nav"></i>',
       ],
+
+
   });

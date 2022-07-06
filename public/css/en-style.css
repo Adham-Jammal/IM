@@ -301,7 +301,7 @@ padding: 0 10px;
 
 /* testimonials */
 .features {
-padding-block-start: 60px;
+padding-block-start: 120px;
 padding-block-end: 60px;
 }
 .features .image-content {
@@ -391,7 +391,9 @@ margin-top: 10px;
 
 /* Responsive */
 @media (max-width:1200px){
-
+    .creating p{
+        width: 85%;
+    }
 }
 /* ************* */
 @media (max-width:991px){
@@ -495,15 +497,8 @@ margin-top: 10px;
         }
 
 
-        .features .image-content img {
-            display: none;
-        }
-        .features .image-content-col {
-            background: url("/img/advantages-background.png");
-            background-size: contain;
-            background-position: center;
-            background-repeat: no-repeat;
-            transform: scale(1.4) translateX(-5px);
+        .features .image-content img{
+            width: 100%;
         }
         .features .info h2{
             width: 100%;
@@ -522,14 +517,12 @@ margin-top: 10px;
             padding: 0;
             height: 45px;
         }
-
-        #contact_image{
-            display: none;
+        .contact-us .image-content{
+            display: flex;
+            align-items: center;
         }
-        #contact_mobile_image{
-            display: block;
+        #contact_image{
             width: 100%;
-            transform: scale(1.2);
         }
         .contact-us form h3{
             margin-block-end: 0;
@@ -564,7 +557,7 @@ margin-top: 10px;
             width: 100%;
         }
         .testimonials .slide{
-            min-height: 900px;
+            min-height: 1200px;
         }
         .testimonials .testimonial{
             padding-bottom: 35px;
@@ -605,7 +598,24 @@ margin-top: 10px;
 
 /* ************* */
 @media (max-width:768px){
-
+    .features .image-content img {
+        display: none;
+    }
+    .features .image-content-col {
+        background: url("/img/advantages-background.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        transform: scale(1.4) translateX(-5px);
+    }
+    #contact_image{
+        display: none;
+    }
+    #contact_mobile_image{
+        display: block;
+        width: 100%;
+        transform: scale(1.2);
+    }
 }
 /* ************* */
 @media (max-width:500px){

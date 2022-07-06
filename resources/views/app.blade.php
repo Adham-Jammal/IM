@@ -27,7 +27,6 @@
 </head>
 
 <body>
-    <a href="https://api.whatsapp.com/send?phone=966502921441&text=" id="whatsapp"><i class="fab fa-whatsapp"></i></a>
     <div id="preloader"></div>
 
     <div id="pop_up">
