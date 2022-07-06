@@ -4,6 +4,7 @@ direction: ltr;
 font-family: 'Cairo', sans-serif;
 }
 .hero{
+    margin-top: 100px;
 padding: 50px 0;
 }
 .hero .hero-text-content{
@@ -217,6 +218,88 @@ text-align: justify;
 .owl-theme .owl-dots .owl-dot.active span{
     width: 25px;
 }
+/* testimonials */
+.testimonials{
+    position: relative;
+    padding: 50px 0;
+    background-color: var(--main-color);
+    background-image: url(/img/Map.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 75% 80%;
+}
+.testimonials h2{
+    color: var(--white);
+    font-size: 5rem;
+    width: 54%;
+    line-height: 1.2;
+}
+.testimonials .testimonial{
+    position: relative;
+    width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 2px 5px 5px;
+}
+.testimonials .testimonial span.card-time{
+    position: absolute;
+    right: 10px;
+    color: #A4A4A4;
+    font-size: 1.2rem;
+}
+.testimonials .slide{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.testimonial.card-1{
+    transform: translate(-25px, 25px);
+}
+.testimonial.card-2{
+    transform: translateX(-500px);
+}
+.testimonial.card-3{
+    transform: translate(-150px, -25px);
+}
+.testimonials .testimonial .info{
+    display: flex;
+    align-items: center;
+}
+.testimonials .testimonial .description{
+    display: flex;
+    align-items: center;
+}
+.testimonials .testimonial .description p{
+padding: 0 10px;
+}
+.testimonials .testimonial .description .left-marks{
+    width: 50px;
+    transform: translateY(-40px);
+}
+.testimonials .testimonial .description .right-marks{
+    width: 50px;
+    transform: rotate(180deg) translateY(-40px);
+}
+.testimonials .testimonial .info .stars i{
+    color: #FDBC0B;
+}
+.owl-theme .owl-nav{
+    display: inline;
+    position: absolute;
+    top: 10px;
+}
+.arrow-nav{
+    color: white;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* testimonials */
 .features {
 padding-block-start: 60px;
 padding-block-end: 60px;
@@ -410,6 +493,8 @@ margin-top: 10px;
         .our-advantages .advantage-carousel{
             display: block;
         }
+
+
         .features .image-content img {
             display: none;
         }
@@ -471,7 +556,50 @@ margin-top: 10px;
             width: 100%;
             font-size: 2.2rem;
         }
-
+        .testimonials{
+            background-image: url(/img/mobile-map.png);
+        }
+        .testimonials h2{
+            font-size: 4rem;
+            width: 100%;
+        }
+        .testimonials .slide{
+            min-height: 900px;
+        }
+        .testimonials .testimonial{
+            padding-bottom: 35px;
+            width: 225px;
+        }
+        .testimonials .testimonial span.card-time{
+            position: absolute;
+            right: unset;
+            color: #A4A4A4;
+            font-size: 1.6rem;
+            bottom: 10px;
+            left: 32px;
+        }
+        .testimonials .testimonial .description p{
+            padding: 0 10px;
+            text-align: justify;
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 1.5;
+        }
+        .testimonials .testimonial .description .left-marks{
+            transform: translateY(-75px);
+        }
+        .testimonials .testimonial .description .right-marks{
+            transform: rotate(180deg) translateY(-75px);
+        }
+        .testimonial.card-1{
+            transform: translate(-75px, 75px);
+        }
+        .testimonial.card-2{
+            transform: translate(0px, 100px);
+        }
+        .testimonial.card-3{
+            transform: translate(-75px, 125px);
+        }
 }
 
 

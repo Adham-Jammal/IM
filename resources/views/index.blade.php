@@ -1,21 +1,21 @@
 @extends('app')
 
 @section('main')
-{{-- creating mobile --}}
-<section class="creating creating-mobile">
-    <img src="{{ asset('img/left.png') }}" class="left" alt="Logo">
-    <div class=content>
-        <h2>We love creating
-            <br>
-            <span class="background">beauty</span>
-        </h2>
-        <p>We believe that beauty is a desire for everyone, we will realize in your residence</p>
-        <span class="mobile-span">TO SEE OUR FULL WORKS, PLEASE CONTACT US</span>
-        <a href="#">Contact Us</a>
-    </div>
-    <img src="{{ asset('img/right.png') }}"  class="right" alt="Logo">
-</section>
-{{-- creating mobile --}}
+    {{-- creating mobile --}}
+    <section class="creating creating-mobile">
+        <img src="{{ asset('img/left.png') }}" class="left" alt="Logo">
+        <div class=content>
+            <h2>We love creating
+                <br>
+                <span class="background">beauty</span>
+            </h2>
+            <p>We believe that beauty is a desire for everyone, we will realize in your residence</p>
+            <span class="mobile-span">TO SEE OUR FULL WORKS, PLEASE CONTACT US</span>
+            <a href="#">Contact Us</a>
+        </div>
+        <img src="{{ asset('img/right.png') }}" class="right" alt="Logo">
+    </section>
+    {{-- creating mobile --}}
 
     <section class="hero">
         <div class="container">
@@ -151,7 +151,297 @@
         </div>
     </section>
 
-    sction
+    <section class="testimonials">
+        <div class="container">
+            <h2>Read what our customers loved about us </h2>
+            <div class="testimonials-carousel owl-carousel owl-theme">
+                <div class="slide">
+                    <div class="testimonial card-1">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-2">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-3">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="testimonial card-1">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-2">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-3">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="testimonial card-1">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-2">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-3">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="testimonial card-1">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-2">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+
+                    <div class="testimonial card-3">
+                        <div class="info">
+                        <span class="card-time"> 4min ago</span>
+                            <div class="image">
+                                <img src="{{ asset('img/testimonial-image.png') }}" alt="profile-image">
+                            </div>
+                            <div class="name-rate">
+                                <h3>Client name</h3>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="left-marks" alt="quotemark">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget augue volutpat, tellus
+                                ullamcorper eu non massa vitae aenean. Congue pulvinar elit euismod sapien ultrices tortor
+                                cursus. Maecenas vulputate risus phasellus suspendisse vitae in nulla.</p>
+                            <img src="{{ asset('img/quotes-mark.png') }}" class="right-marks" alt="quotemark">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
     <!-- Start Features -->
     <section class="features">
         <div class="container-fluid">
@@ -183,7 +473,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="{{ asset('img/contact-image.png') }}" id="contact_image"  alt="contact">
+                    <img src="{{ asset('img/contact-image.png') }}" id="contact_image" alt="contact">
                     <img src="{{ asset('img/contact-image-mobile.png') }}" id="contact_mobile_image" alt="contact">
                 </div>
                 <div class="col-md-6">

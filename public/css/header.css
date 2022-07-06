@@ -1,8 +1,8 @@
 .wrapper{
     font-family:"Noto Kufi Arabic";
-    /* position: fixed; */
+    position: fixed;
     top: 0;
-    background: transparent;
+    background: #fff;
     width: 100%;
     z-index: 11;
     margin: 0;
@@ -16,7 +16,7 @@
     position: relative;
     display: flex;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 5px 0;
     align-items: center;
     justify-content: space-between;
   }
@@ -174,7 +174,7 @@
     .wrapper nav{
       width: 100%;
       max-width: 100%;
-      padding: 10px 0;
+      padding:  0;
     }
     nav .content .links{
       margin-right: 0;
@@ -192,7 +192,7 @@
 
   @media screen and (max-width: 1020px){
     .wrapper{
-      background: transparent ;
+      background: #fff ;
     }
     .wrapper nav{
         background-color: transparent;
@@ -202,13 +202,16 @@
     }
     .wrapper .menu-icon{
         display: flex;
-        padding: 10px;
+        padding: 0 10px;
         width: 100%;
         align-items: center;
         justify-content: space-between;
         }
         .wrapper .menu-icon img{
-            width: 30px;
+            width: 50px;
+        }
+        .wrapper .menu-icon .burger{
+            width: 25px;
         }
         nav .content .links::before{
             display: none;
