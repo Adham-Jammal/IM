@@ -5,7 +5,7 @@
             <img src="{{asset('img/footer-logo.png')}}" alt="logo">
         </div>
           <div class="col-md-4">
-            <h4>Contact Informations</h4>
+            <h4>{{__('index.33')}}</h4>
             <ul>
               <li>iminfo@rightaccess.com.sa</li>
               <li>920003447</li>
@@ -13,10 +13,10 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h4>Factory Address</h4>
+            <h4>{{__('index.34')}}</h4>
             <ul>
-              <li>Riyadh, Muhammadiyah, King Fahd Road</li>
-              <li>opposite Riyadh Gallery</li>
+              <li>{{__('index.35')}}</li>
+              <li>{{__('index.36')}}</li>
             </ul>
           </div>
         </div>

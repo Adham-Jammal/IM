@@ -16,10 +16,10 @@ $lang2 =  LaravelLocalization::getCurrentLocale() == 'ar' ? 'en' : 'ar';
 
         <div class="content">
         <ul class="links">
-            <li> <a href="/">Homepage</a> </li>
-            <li> <a href="/our-projects">Products</a></li>
-            <li> <a href="/add-realty">contactus</a></li>
-            <li> <a href="{{ LaravelLocalization::getLocalizedURL($lang2, null, [], true) }}">العربية</a></li>
+            <li> <a href="/">{{__('index.37')}}</a> </li>
+            <li> <a href="#">{{__('index.38')}}</a></li>
+            <li> <a href="#">{{__('index.39')}}</a></li>
+            <li> <a href="{{ LaravelLocalization::getLocalizedURL($lang2, null, [], true) }}">{{__('index.40')}}</a></li>
         </ul>
       </div>
     </nav>

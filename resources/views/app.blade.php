@@ -28,35 +28,7 @@
 
 <body>
     <div id="preloader"></div>
-
-    <div id="pop_up">
-        <button onclick="hide()" id="close"><i class="fas fa-times"></i></button>
-        <div class="popup-form">
-            <form action="{{route('request')}}" method="POST">
-                @csrf
-                <h4> {{__('index.pop1')}} </h4>
-
-                <label for="phone">{{__('index.ph2')}} </label>
-                <input required type="number" name="phone" id="phone">
-
-                <input type="text" name="service_req" hidden id="service_req">
-
-                <label for="car_type">{{__('index.pop2')}} </label>
-                <input required type="text" name="car-type" id="car_type">
-                <label for="color">{{__('index.pop3')}}</label>
-                <input required type="color" name="color" id="color">
-                <label for="color">{{__('index.pop4')}}</label>
-                <select required name="size" id="size">
-                    <option value="small">{{__('index.pop21')}}</option>
-                    <option value="medium">{{__('index.pop22')}}</option>
-                    <option value="large">{{__('index.pop23')}}</option>
-                </select>
-                <label for="date">{{__('index.pop5')}}</label>
-                <input required type="datetime-local" id="date" name="date">
-                <input required type="submit" name="send" id="popup_send" value=" {{__('index.52')}}">
-            </form>
-        </div>
-    </div>
+    <button id="scroll_top"><i class="bi bi-chevron-up"></i></button>
     @include('layouts.header')
 
     @yield('main')
