@@ -11,7 +11,7 @@
             </h2>
             <p>{{ __('index.7') }}</p>
             <span class="mobile-span">{{ __('index.3') }}</span>
-            <a href="#">{{ __('index.4') }}</a>
+            <a href="#contact">{{ __('index.4') }}</a>
         </div>
         <img src="{{ asset('img/right.png') }}" class="right" alt="Logo">
     </section>
@@ -23,7 +23,7 @@
                 <div class="col-lg-4 hero-text-content" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="content">
                         <h1>{{ __('index.1') }}</h1>
-                        <div class="swiper-container mobile-slider"  data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="swiper-container mobile-slider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide" style="background: url(/img/slider2.jpg);"></div>
                                 <div class="swiper-slide" style="background: url(/img/slider3.jpg);"></div>
@@ -34,7 +34,7 @@
                         </div>
                         <p>{{ __('index.2') }}</p>
                         <span>{{ __('index.3') }}</span>
-                        <a href="#">{{ __('index.4') }}</a>
+                        <a href="#contact">{{ __('index.4') }}</a>
                     </div>
 
                 </div>
@@ -65,10 +65,10 @@
         <img src="{{ asset('img/right.png') }}" alt="Logo" >
     </section>
 
-    <section class="part-of-work">
+    <section class="part-of-work" id="products">
         <h2  data-aos="fade-up" data-aos-duration="1000" >{{ __('index.8') }}</h2>
         <p data-aos="fade-up" data-aos-duration="1000" >{{ __('index.9') }}</p>
-        <div class="owl-carousel owl-theme" data-aos="zoom-in" data-aos-duration="1000" >
+        <div class="owl-carousel owl-theme"  >
             <div class="item">
                 <img src="{{ asset('img/slider1.jpg') }}" alt="Logo">
             </div>
@@ -427,10 +427,10 @@
                     <div class="info text-content" data-aos="fade-left" data-aos-duration="1000" >
                         <h2>{{ __('index.22') }}</h2>
                         <ul>
-                            <li><span>&#10230;</span>{{ __('index.23') }} </li>
-                            <li><span>&#10230;</span>{{ __('index.24') }} </li>
-                            <li><span>&#10230;</span>{{ __('index.25') }} </li>
-                            <li><span>&#10230;</span>{{ __('index.26') }}</li>
+                            <li><span>&#10230;</span> <p>{{ __('index.23') }}</p>  </li>
+                            <li><span>&#10230;</span> <p>{{ __('index.24') }}</p>  </li>
+                            <li><span>&#10230;</span> <p>{{ __('index.25') }}</p>  </li>
+                            <li><span>&#10230;</span> <p>{{ __('index.26') }}</p> </li>
                         </ul>
                     </div>
                 </div>
@@ -440,10 +440,11 @@
     <!-- End Features -->
 
     <!-- Start Contact Us -->
-    <section class="contact-us">
+    <section class="contact-us" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 image-content" data-aos="zoom-in" data-aos-duration="1000" >
+                    <h3>{{ __('index.42') }}</h3>
                     <img src="{{ asset('img/contact-image.png') }}" id="contact_image" alt="contact">
                     <img src="{{ asset('img/contact-image-mobile.png') }}" id="contact_mobile_image" alt="contact">
                 </div>

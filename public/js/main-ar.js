@@ -62,7 +62,7 @@ $(".part-of-work .owl-carousel").owlCarousel({
     lazyLoad: true,
     nav: true,
     navText: [
-        '<i class="fa fa-caret-right"></i>',
+        '<i class="fa fa-caret-right right-arrow"></i>',
         '<i class="fa fa-caret-left"></i>',
     ],
     responsive: {
@@ -115,16 +115,16 @@ $(".testimonials-carousel").owlCarousel({
     lazyLoad: true,
     nav: true,
     navText: [
-        '<i class="fa fa-caret-right arrow-nav"></i>',
+        '<i class="fa fa-caret-right arrow-nav right-arrow"></i>',
         '<i class="fa fa-caret-left arrow-nav"></i>',
     ],
 });
 let scrollTopButton = document.getElementById("scroll_top");
 window.onscroll = () => {
     if (scrollY >= 430) {
-        scrollTopButton.style = "right: 10px;transform: rotate(0deg);";
+        scrollTopButton.style = "left: 10px;transform: rotate(0deg);";
     } else {
-        scrollTopButton.style = "right: -60px;";
+        scrollTopButton.style = "left: -60px;";
     }
 };
 scrollTopButton.onclick = function () {

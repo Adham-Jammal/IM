@@ -206,25 +206,7 @@ a{
     font-size: 1.6rem;
     cursor: pointer;
   }
-  /*Scroll Top*/
-#scroll_top{
-    position: fixed;
-    right: -60px;
-    bottom: 25px;
-    padding: 8px 15px;
-    background-color: var(--main-color);
-    color: #fff;
-    cursor: pointer;
-    z-index: 4;
-    border-radius: 50%;
-    font-size: 2rem;
-    font-weight: 800;
-    transform: rotate(90deg);
-    transition: 1s;
-}
-#scroll_top:hover{
-    background-color: var(--dark-color);
-}
+
 
 @media (max-width:500px) {
     #pop_up form{
